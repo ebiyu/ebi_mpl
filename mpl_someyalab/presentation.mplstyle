@@ -1,0 +1,21 @@
+font.family: Arial
+font.weight: bold
+font.size: 14
+
+axes.labelsize: 20
+axes.titlesize: 14
+axes.labelweight: bold
+axes.linewidth: 1.5
+
+xtick.labelsize: 20
+xtick.direction: in
+xtick.major.width: 1.5
+ytick.labelsize: 20
+ytick.direction: in
+ytick.major.width: 1.5
+
+lines.markersize: 10
+
+legend.frameon: False
+
+axes.prop_cycle: "cycler('color', ['black', 'red', 'blue', 'green', 'm', 'c', 'y']) + cycler('marker', ['o', 'x', 's', 'D', 'P', "v", "^"])"
