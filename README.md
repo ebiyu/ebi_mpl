@@ -18,7 +18,7 @@ pip install git+https://github.com/ebiyu/ebi_mpl.git
 
 ## Usage
 
-You can use the style by inserting line `plt.style.use("ebi_mpl.presentation")` at the beginning of your script.
+You can use the style by inserting line `plt.style.use("ebi_mpl.lab")` at the beginning of your script.
 
 Example:
 
