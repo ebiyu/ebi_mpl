@@ -2,9 +2,7 @@
 
 ## Installation
 
-Download this repository and open this folder in terminal.
-
-Run the following command:
+Download this repository and open this folder in terminal and run the following command:
 
 ```bash
 pip install .
