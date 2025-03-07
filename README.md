@@ -1,5 +1,7 @@
 # ebi's style for Matplotlib
 
+![](./doc/lab.png)
+
 ## Installation
 
 Download this repository and open this folder in terminal and run the following command:
