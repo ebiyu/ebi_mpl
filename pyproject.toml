@@ -1,7 +1,7 @@
 [project]
-name = "mpl_someyalab"
+name = "ebi_mpl"
 version = "0.1.0"
-description = "A collection of custom Matplotlib styles."
+description = "ebi's style for Matplotlib"
 authors = [
     { name = "Yusuke Ebihara", email = "ebihara@ntech.t.u-tokyo.ac.jp" },
 ]
@@ -21,12 +21,12 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project.urls]
-Homepage = "https://github.com/ebiyu/mpl_someyalab"
+Homepage = "https://github.com/ebiyu/ebi_mpl"
 
 [tool.setuptools]
 packages = [
-    "mpl_someyalab",
+    "ebi_mpl",
 ]
 
 [tool.setuptools.package-data]
-mpl_someyalab = ["styles/*.mplstyle", "*.mplstyle"]
+ebi_mpl = ["styles/*.mplstyle", "*.mplstyle"]
