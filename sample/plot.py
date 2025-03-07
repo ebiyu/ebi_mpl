@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 
-import mpl_someyalab
 # plt.style.use("./mpl_someyalab/presentation.mplstyle")
 plt.style.use("mpl_someyalab.presentation")
 
