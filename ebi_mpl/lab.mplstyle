@@ -7,6 +7,11 @@ axes.titlesize: 14
 axes.labelweight: bold
 axes.linewidth: 1.5
 
+xtick.top: True
+xtick.bottom: True
+ytick.left: True
+ytick.right: True
+
 xtick.labelsize: 20
 xtick.direction: in
 xtick.major.width: 1.5
