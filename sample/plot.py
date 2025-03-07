@@ -1,7 +1,6 @@
 import matplotlib.pyplot as plt
 
-# plt.style.use("./mpl_someyalab/presentation.mplstyle")
-plt.style.use("mpl_someyalab.presentation")
+plt.style.use("ebi_mpl.lab")
 
 x = [1, 2, 3, 4, 5]
 y = [1, 4, 9, 16, 25]
