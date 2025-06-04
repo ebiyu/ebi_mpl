@@ -1,19 +1,13 @@
 # ebi's style for Matplotlib
 
+[ja](./README_ja.md)
+
 ![](./doc/lab.png)
 
 ## Installation
 
-Download this repository and open this folder in terminal and run the following command:
-
 ```bash
-pip install .
-```
-
-Or if you computer has git, you can install it by the following command:
-
-```bash
-pip install git+https://github.com/ebiyu/ebi_mpl.git
+pip install ebi_mpl
 ```
 
 ## Usage
@@ -35,4 +29,18 @@ plt.ylabel("Y label")
 plt.legend()
 plt.tight_layout()
 plt.show()
+```
+
+## For developer
+
+Download this repository and open this folder in terminal and run the following command:
+
+```bash
+pip install .
+```
+
+Or if you computer has git, you can install it by the following command:
+
+```bash
+pip install git+https://github.com/ebiyu/ebi_mpl.git
 ```
