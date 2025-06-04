@@ -1,0 +1,20 @@
+on:
+  release:
+    types:
+      - published
+
+permissions:
+  id-token: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - run: pip install build
+    - run: python -m build
+    - uses: pypa/gh-action-pypi-publish@release/v1
+
